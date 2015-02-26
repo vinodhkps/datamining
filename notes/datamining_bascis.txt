@@ -1,0 +1,14 @@
+Data Mining
+
+ItemSet: A Set of one or more items
+Support (Absolute): Count of number of times an ItemSet appears
+Support (Relative): Probability that a given ItemSet appears in the Set of all transactions. In other words, count of number of times an ItemSet appears divided by count of all transactions
+
+
+Close Pattern: An ItemSet (aka Pattern) X is Closed if there exists no Super ItemSet or Super Pattern Y, such that X is contained in Y with the same support.
+
+Max Pattern: An ItemSet X is Max Pattern if X is frequent and there exists no super pattern that is frequent
+
+Apriori or Downward Closure Property: Any SubSet of a frequent ItemSet is also frequent if we keep the minimum support to be the same. In other words, if any of the subsets of a set S is infrequent, then there is no way the set S can be frequent.
+
+	
